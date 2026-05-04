@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "gateserver",
+  "version": "1.0.0",
+  "dependencies": [
+    "boost-beast",
+    "boost-asio",
+    "boost-filesystem",
+    "boost-property-tree",
+    "jsoncpp",
+    "grpc",
+    "protobuf",
+    "hiredis"
+  ]
+}

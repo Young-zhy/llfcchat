@@ -1,0 +1,6 @@
+/client/llfcchat/build
+/client/llfcchat/*.user
+/server/VerifyServer/node_modules
+/server/GateServer/.vs
+/server/GateServer/out
+/server/GateServer/vcpkg_installed

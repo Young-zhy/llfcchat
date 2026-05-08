@@ -1,4 +1,4 @@
-﻿#include "ConfigMgr.h"
+#include "ConfigMgr.h"
 ConfigMgr::ConfigMgr(){
 	// 获取当前工作目录  
 	boost::filesystem::path current_path = boost::filesystem::current_path();

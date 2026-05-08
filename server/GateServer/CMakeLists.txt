@@ -41,6 +41,7 @@ add_executable(${PROJECT_NAME}
     LogicSystem.cpp
     VerifyGrpcClient.cpp
     ConfigMgr.cpp
+    AsioIOServicePool.cpp
     ${PROTO_SRC}
     ${GRPC_SRC} 
 )

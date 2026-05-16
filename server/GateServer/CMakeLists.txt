@@ -35,15 +35,16 @@ add_custom_command(
 )
 
 add_executable(${PROJECT_NAME}
-    GateServer.cpp
-    CServer.cpp
-    HttpConnection.cpp
-    LogicSystem.cpp
-    VerifyGrpcClient.cpp
-    ConfigMgr.cpp
-    AsioIOServicePool.cpp
     ${PROTO_SRC}
     ${GRPC_SRC} 
+    "GateServer.cpp"
+    "CServer.cpp"
+    "HttpConnection.cpp"
+    "LogicSystem.cpp"
+    "VerifyGrpcClient.cpp"
+    "ConfigMgr.cpp"
+    "AsioIOServicePool.cpp"
+    "RedisMgr.cpp"
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_BINARY_DIR})
